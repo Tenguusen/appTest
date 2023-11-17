@@ -1,0 +1,16 @@
+<div>
+    <h1>Création de Comptes</h1>
+    <form [formGroup]="accountCreationForm" (ngSubmit)="accountCreationSubmit()">
+        <label for="createAccountInput">Creation Compte</label>
+        <input id="createAccountInput" formControlName="createAccountInput">
+        <button id="createAccountButton" type='submit' class="button">Créer</button>
+    </form>
+    <h1>Dépôt</h1>
+    <form [formGroup]="depositForm" (ngSubmit)="depositSubmit()">
+        <label for="topupAccountInput">Entrez Compte</label>
+        <input id="topupAccountInput" formControlName="topupAccountInput">
+        <label for="topupAmountInput">Entrez Montant</label>
+        <input id="topupAmountInput" formControlName="topupAmountInput">
+        <button type='submit' id="topupAccountButton" class="button">Déposer</button>
+    </form>
+</div>
