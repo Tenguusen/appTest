@@ -1,5 +1,7 @@
 # Pour compléter les tests techniques
 
+Ce projet vise à compléter les exercices réalisés au cours d'un test technique
+
 ## Account (Exercice 1 (Angular) - AccountComponent)
 
 Ma solution initiale était de partir sur un ReactiveForm mais je n'ai pas pu le faire comme souhaité.
